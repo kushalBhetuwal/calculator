@@ -24,24 +24,8 @@ button{
     font-size:2rem;
      cursor: pointer;
 }
-.first{
-    display:flex;   
-    flex-grow:1;
-}
-.second{
+div{
     display:flex;
-    flex-grow:1;
-}
-.third{
-    display: flex;
-    flex-grow:1;
-}
-.fourth{
-    display: flex;
-    flex-grow:1;
-}
-.fifth{
-    display: flex;
     flex-grow:1;
 }
 .item1{
@@ -50,22 +34,13 @@ button{
 .item2{
     flex-grow:3;
 }
-.divide{
-    background-color: #df974c;
-}
-.plus{
-    background-color: #df974c;
-}
-.multiply{
-    background-color: #df974c;
-}
-.minus{
-    background-color: #df974c;
-}
-.equals{
-    background-color: #df974c;
+button:last-child{
+    background-color:#df974c;
 }
 
 button:hover{
     background-color:#ebebeb;;
+}
+button:last-child:hover{
+    background-color:#FFCC70;
 }
