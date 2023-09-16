@@ -7,7 +7,8 @@
     height:400px;
     background-color:#EBE4D1;
     margin:50px auto;
-  
+    display:flex;
+    flex-direction: column;
 }
 header{
     background-color:black;
@@ -15,4 +16,33 @@ header{
     padding:15px;
     text-align: right;
     font-size:2rem;
+}
+button{
+    flex-grow:1;
+}
+.first{
+    display:flex;   
+    flex-grow:1;
+}
+.second{
+    display:flex;
+    flex-grow:1;
+}
+.third{
+    display: flex;
+    flex-grow:1;
+}
+.fourth{
+    display: flex;
+    flex-grow:1;
+}
+.fifth{
+    display: flex;
+    flex-grow:1;
+}
+.item1{
+    flex-grow:2;
+}
+.item2{
+    flex-grow:3;
 }
