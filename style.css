@@ -1,99 +1,18 @@
 *{
     box-sizing: border-box;
+    
 }
-:root{
-    --bc:#df974c;
-    --b:#d8d9db;
+.calculator{
+    width:400px;
+    height:400px;
+    background-color:#EBE4D1;
+    margin:50px auto;
+  
 }
-
-.gridpage{
-    display:grid;
-    grid-template-areas:
-    "top top  top  top"
-    "clear clear arrow divide"
-    "seven eight nine multiply"
-    "four five six minus"
-    "one two three plus"
-    "zero zero zero equals";
-    justify-content: space-around;
-    gap:5px;  
-}
-.gridpage > *{
-    border:3px solid black;
-}
-.top{
-    grid-area:top;
+header{
     background-color:black;
     color:white;
-}
-.clear{
-    grid-area:clear;
-    background-color: var(--b);
-}
-.arrow{
-    grid-area:arrow;
-    background-color: var(--b);
-   
-}
-.divide{
-    grid-area:divide;
-    background-color: var(--bc);
-    
-}
-.seven{
-    grid-area:seven;
-    background-color: var(--b);
-}
-.eight{
-    grid-area:eight;
-    background-color: var(--b);
-}
-.nine{
-    grid-area:nine;
-    background-color: var(--b);
-}
-.multiply{
-    grid-area:multiply;
-    background-color: var(--bc);
-}
-.four{
-    grid-area:four;
-    background-color: var(--b);
-}
-.five{
-    grid-area:five;
-    background-color: var(--b);
-}
-.six{
-    grid-area:six;
-    background-color: var(--b);
-}
-.minus{
-    grid-area:minus;
-    background-color: var(--bc);
-    
-}
-.one{
-    grid-area:one;
-    background-color: var(--b);
-}
-.two{
-    grid-area:two;
-    background-color: var(--b);
-}
-.three{
-    grid-area:three;
-    background-color: var(--b);
-}
-.plus{
-    grid-area:plus;
-    background-color: var(--bc);
-}
-.zero{
-    grid-area:zero;
-    background-color: var(--b);
-}
-.equals{
-    grid-area:equals;
-    background-color: var(--bc);
+    padding:15px;
+    text-align: right;
+    font-size:2rem;
 }
