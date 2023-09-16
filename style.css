@@ -19,6 +19,8 @@ header{
 }
 button{
     flex-grow:1;
+    background-color: #d8d9db;
+    font-size:2rem;
 }
 .first{
     display:flex;   
@@ -45,4 +47,19 @@ button{
 }
 .item2{
     flex-grow:3;
+}
+.divide{
+    background-color: #df974c;
+}
+.plus{
+    background-color: #df974c;
+}
+.multiply{
+    background-color: #df974c;
+}
+.minus{
+    background-color: #df974c;
+}
+.equals{
+    background-color: #df974c;
 }
